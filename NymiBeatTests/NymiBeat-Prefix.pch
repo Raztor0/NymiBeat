@@ -1,0 +1,16 @@
+//
+//  NymiBeat-Prefix.pch
+//  NymiBeat
+//
+//  Created by Razvan Bangu on 2014-12-29.
+//  Copyright (c) 2014 Razio. All rights reserved.
+//
+
+#ifndef NymiBeat_NymiBeat_Prefix_pch
+#define NymiBeat_NymiBeat_Prefix_pch
+
+#import <UIKit/UIKit.h>
+#import "Blindside.h"
+#import "BlindsidedStoryboard.h"
+
+#endif

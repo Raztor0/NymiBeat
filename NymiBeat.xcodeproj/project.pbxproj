@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3837B1DD1A522184008887AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B1DC1A522184008887AB /* main.m */; };
+		3837B1E01A522184008887AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B1DF1A522184008887AB /* AppDelegate.m */; };
+		3837B1E31A522184008887AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B1E21A522184008887AB /* ViewController.m */; };
+		3837B1E61A522184008887AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3837B1E41A522184008887AB /* Main.storyboard */; };
+		3837B1E81A522184008887AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3837B1E71A522184008887AB /* Images.xcassets */; };
+		3837B1EB1A522184008887AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3837B1E91A522184008887AB /* LaunchScreen.xib */; };
+		3837B1F71A522184008887AB /* NymiBeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B1F61A522184008887AB /* NymiBeatTests.m */; };
+		3837B2041A5221AD008887AB /* libNCLNetiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3837B2021A5221AD008887AB /* libNCLNetiOS.a */; };
+		3837B2091A5221C8008887AB /* NclWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2081A5221C8008887AB /* NclWrapper.m */; };
+		3837B20C1A5221F1008887AB /* PPSignInWithNymiStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3837B20B1A5221F1008887AB /* PPSignInWithNymiStoryboard.storyboard */; };
+		3837B2111A5221F7008887AB /* PPStoryboardNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B20E1A5221F7008887AB /* PPStoryboardNames.m */; };
+		3837B2121A5221F7008887AB /* PPStoryboardProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2101A5221F7008887AB /* PPStoryboardProvider.m */; };
+		3837B2181A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2151A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.m */; };
+		3837B2191A522306008887AB /* PPSignInWithNymiPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2171A522306008887AB /* PPSignInWithNymiPatternViewController.m */; };
+		3837B21C1A522315008887AB /* PPSignInWithNymiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B21B1A522315008887AB /* PPSignInWithNymiViewController.m */; };
+		3837B2221A52233E008887AB /* PPSignInWithNymiDiscoveryModeViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2201A52233E008887AB /* PPSignInWithNymiDiscoveryModeViewControllerSpec.m */; };
+		3837B2231A52233E008887AB /* PPSignInWithNymiPatternViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2211A52233E008887AB /* PPSignInWithNymiPatternViewControllerSpec.m */; };
+		3837B2251A522343008887AB /* PPSignInWithNymiViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837B2241A522343008887AB /* PPSignInWithNymiViewControllerSpec.m */; };
+		3837B2271A522360008887AB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3837B2261A522360008887AB /* CoreBluetooth.framework */; };
+		652157DC948E5F5A60F650E8 /* libPods-NymiBeatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9234E8A8F7473C0DF28B07 /* libPods-NymiBeatTests.a */; };
+		C2B29AF41AB4462F031E3943 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D9A61C1CF7419BD3FCE662 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3837B1F11A522184008887AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3837B1CF1A522184008887AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3837B1D61A522184008887AB;
+			remoteInfo = NymiBeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CDEDEA4C4FB42E1F225537 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3837B1D71A522184008887AB /* NymiBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NymiBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3837B1DB1A522184008887AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3837B1DC1A522184008887AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3837B1DE1A522184008887AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3837B1DF1A522184008887AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3837B1E11A522184008887AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3837B1E21A522184008887AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3837B1E51A522184008887AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3837B1E71A522184008887AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3837B1EA1A522184008887AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3837B1F01A522184008887AB /* NymiBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NymiBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3837B1F51A522184008887AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3837B1F61A522184008887AB /* NymiBeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NymiBeatTests.m; sourceTree = "<group>"; };
+		3837B2011A5221AD008887AB /* libNCLiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNCLiOS.a; sourceTree = "<group>"; };
+		3837B2021A5221AD008887AB /* libNCLNetiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNCLNetiOS.a; sourceTree = "<group>"; };
+		3837B2061A5221C8008887AB /* ncl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ncl.h; sourceTree = "<group>"; };
+		3837B2071A5221C8008887AB /* NclWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NclWrapper.h; sourceTree = "<group>"; };
+		3837B2081A5221C8008887AB /* NclWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NclWrapper.m; sourceTree = "<group>"; };
+		3837B20B1A5221F1008887AB /* PPSignInWithNymiStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PPSignInWithNymiStoryboard.storyboard; sourceTree = "<group>"; };
+		3837B20D1A5221F7008887AB /* PPStoryboardNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStoryboardNames.h; sourceTree = "<group>"; };
+		3837B20E1A5221F7008887AB /* PPStoryboardNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStoryboardNames.m; sourceTree = "<group>"; };
+		3837B20F1A5221F7008887AB /* PPStoryboardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStoryboardProvider.h; sourceTree = "<group>"; };
+		3837B2101A5221F7008887AB /* PPStoryboardProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStoryboardProvider.m; sourceTree = "<group>"; };
+		3837B2141A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSignInWithNymiDiscoveryModeViewController.h; sourceTree = "<group>"; };
+		3837B2151A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSignInWithNymiDiscoveryModeViewController.m; sourceTree = "<group>"; };
+		3837B2161A522306008887AB /* PPSignInWithNymiPatternViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSignInWithNymiPatternViewController.h; sourceTree = "<group>"; };
+		3837B2171A522306008887AB /* PPSignInWithNymiPatternViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSignInWithNymiPatternViewController.m; sourceTree = "<group>"; };
+		3837B21A1A522315008887AB /* PPSignInWithNymiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSignInWithNymiViewController.h; sourceTree = "<group>"; };
+		3837B21B1A522315008887AB /* PPSignInWithNymiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSignInWithNymiViewController.m; sourceTree = "<group>"; };
+		3837B2201A52233E008887AB /* PPSignInWithNymiDiscoveryModeViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSignInWithNymiDiscoveryModeViewControllerSpec.m; sourceTree = "<group>"; };
+		3837B2211A52233E008887AB /* PPSignInWithNymiPatternViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSignInWithNymiPatternViewControllerSpec.m; sourceTree = "<group>"; };
+		3837B2241A522343008887AB /* PPSignInWithNymiViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSignInWithNymiViewControllerSpec.m; sourceTree = "<group>"; };
+		3837B2261A522360008887AB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3837B2281A522382008887AB /* NymiBeat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NymiBeat-Prefix.pch"; sourceTree = "<group>"; };
+		40D9A61C1CF7419BD3FCE662 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9234E8A8F7473C0DF28B07 /* libPods-NymiBeatTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NymiBeatTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBE9DE3DAC949E742C24FDB /* Pods-NymiBeatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NymiBeatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NymiBeatTests/Pods-NymiBeatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF74E3F9EFF0FD4AE03E8B1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB66104CC222406EE00743DE /* Pods-NymiBeatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NymiBeatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NymiBeatTests/Pods-NymiBeatTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3837B1D41A522184008887AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3837B2271A522360008887AB /* CoreBluetooth.framework in Frameworks */,
+				3837B2041A5221AD008887AB /* libNCLNetiOS.a in Frameworks */,
+				C2B29AF41AB4462F031E3943 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3837B1ED1A522184008887AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652157DC948E5F5A60F650E8 /* libPods-NymiBeatTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3837B1CE1A522184008887AB = {
+			isa = PBXGroup;
+			children = (
+				3837B1D91A522184008887AB /* NymiBeat */,
+				3837B1F31A522184008887AB /* NymiBeatTests */,
+				3837B1D81A522184008887AB /* Products */,
+				D0A66538A525BF635E908DF8 /* Pods */,
+				4035414AB426C495293B680C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3837B1D81A522184008887AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3837B1D71A522184008887AB /* NymiBeat.app */,
+				3837B1F01A522184008887AB /* NymiBeatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3837B1D91A522184008887AB /* NymiBeat */ = {
+			isa = PBXGroup;
+			children = (
+				3837B2131A5222EB008887AB /* ViewControllers */,
+				3837B20A1A5221DD008887AB /* Storyboards */,
+				3837B2051A5221B3008887AB /* Nymi */,
+				3837B2001A522191008887AB /* Frameworks */,
+				3837B1DE1A522184008887AB /* AppDelegate.h */,
+				3837B1DF1A522184008887AB /* AppDelegate.m */,
+				3837B1E11A522184008887AB /* ViewController.h */,
+				3837B1E21A522184008887AB /* ViewController.m */,
+				3837B1E41A522184008887AB /* Main.storyboard */,
+				3837B1E71A522184008887AB /* Images.xcassets */,
+				3837B1E91A522184008887AB /* LaunchScreen.xib */,
+				3837B1DA1A522184008887AB /* Supporting Files */,
+			);
+			path = NymiBeat;
+			sourceTree = "<group>";
+		};
+		3837B1DA1A522184008887AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3837B1DB1A522184008887AB /* Info.plist */,
+				3837B1DC1A522184008887AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3837B1F31A522184008887AB /* NymiBeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3837B2241A522343008887AB /* PPSignInWithNymiViewControllerSpec.m */,
+				3837B2201A52233E008887AB /* PPSignInWithNymiDiscoveryModeViewControllerSpec.m */,
+				3837B2211A52233E008887AB /* PPSignInWithNymiPatternViewControllerSpec.m */,
+				3837B1F61A522184008887AB /* NymiBeatTests.m */,
+				3837B1F41A522184008887AB /* Supporting Files */,
+			);
+			path = NymiBeatTests;
+			sourceTree = "<group>";
+		};
+		3837B1F41A522184008887AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3837B1F51A522184008887AB /* Info.plist */,
+				3837B2281A522382008887AB /* NymiBeat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3837B2001A522191008887AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3837B2011A5221AD008887AB /* libNCLiOS.a */,
+				3837B2021A5221AD008887AB /* libNCLNetiOS.a */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		3837B2051A5221B3008887AB /* Nymi */ = {
+			isa = PBXGroup;
+			children = (
+				3837B2061A5221C8008887AB /* ncl.h */,
+				3837B2071A5221C8008887AB /* NclWrapper.h */,
+				3837B2081A5221C8008887AB /* NclWrapper.m */,
+			);
+			path = Nymi;
+			sourceTree = "<group>";
+		};
+		3837B20A1A5221DD008887AB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3837B20D1A5221F7008887AB /* PPStoryboardNames.h */,
+				3837B20E1A5221F7008887AB /* PPStoryboardNames.m */,
+				3837B20F1A5221F7008887AB /* PPStoryboardProvider.h */,
+				3837B2101A5221F7008887AB /* PPStoryboardProvider.m */,
+				3837B20B1A5221F1008887AB /* PPSignInWithNymiStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3837B2131A5222EB008887AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3837B21A1A522315008887AB /* PPSignInWithNymiViewController.h */,
+				3837B21B1A522315008887AB /* PPSignInWithNymiViewController.m */,
+				3837B2141A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.h */,
+				3837B2151A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.m */,
+				3837B2161A522306008887AB /* PPSignInWithNymiPatternViewController.h */,
+				3837B2171A522306008887AB /* PPSignInWithNymiPatternViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4035414AB426C495293B680C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3837B2261A522360008887AB /* CoreBluetooth.framework */,
+				40D9A61C1CF7419BD3FCE662 /* libPods.a */,
+				7B9234E8A8F7473C0DF28B07 /* libPods-NymiBeatTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A66538A525BF635E908DF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF74E3F9EFF0FD4AE03E8B1F /* Pods.debug.xcconfig */,
+				05CDEDEA4C4FB42E1F225537 /* Pods.release.xcconfig */,
+				7EBE9DE3DAC949E742C24FDB /* Pods-NymiBeatTests.debug.xcconfig */,
+				FB66104CC222406EE00743DE /* Pods-NymiBeatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3837B1D61A522184008887AB /* NymiBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3837B1FA1A522184008887AB /* Build configuration list for PBXNativeTarget "NymiBeat" */;
+			buildPhases = (
+				50F5552A72A949D1DD624CA8 /* Check Pods Manifest.lock */,
+				3837B1D31A522184008887AB /* Sources */,
+				3837B1D41A522184008887AB /* Frameworks */,
+				3837B1D51A522184008887AB /* Resources */,
+				9E1E8A3D77FDD37BBBF10515 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NymiBeat;
+			productName = NymiBeat;
+			productReference = 3837B1D71A522184008887AB /* NymiBeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3837B1EF1A522184008887AB /* NymiBeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3837B1FD1A522184008887AB /* Build configuration list for PBXNativeTarget "NymiBeatTests" */;
+			buildPhases = (
+				FB0EBFCBB79CF35D60E4CF7B /* Check Pods Manifest.lock */,
+				3837B1EC1A522184008887AB /* Sources */,
+				3837B1ED1A522184008887AB /* Frameworks */,
+				3837B1EE1A522184008887AB /* Resources */,
+				B455A16D224E7FDEFEEE5205 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3837B1F21A522184008887AB /* PBXTargetDependency */,
+			);
+			name = NymiBeatTests;
+			productName = NymiBeatTests;
+			productReference = 3837B1F01A522184008887AB /* NymiBeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3837B1CF1A522184008887AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Razio;
+				TargetAttributes = {
+					3837B1D61A522184008887AB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3837B1EF1A522184008887AB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3837B1D61A522184008887AB;
+					};
+				};
+			};
+			buildConfigurationList = 3837B1D21A522184008887AB /* Build configuration list for PBXProject "NymiBeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3837B1CE1A522184008887AB;
+			productRefGroup = 3837B1D81A522184008887AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3837B1D61A522184008887AB /* NymiBeat */,
+				3837B1EF1A522184008887AB /* NymiBeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3837B1D51A522184008887AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3837B1E61A522184008887AB /* Main.storyboard in Resources */,
+				3837B1EB1A522184008887AB /* LaunchScreen.xib in Resources */,
+				3837B20C1A5221F1008887AB /* PPSignInWithNymiStoryboard.storyboard in Resources */,
+				3837B1E81A522184008887AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3837B1EE1A522184008887AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F5552A72A949D1DD624CA8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1E8A3D77FDD37BBBF10515 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B455A16D224E7FDEFEEE5205 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NymiBeatTests/Pods-NymiBeatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0EBFCBB79CF35D60E4CF7B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3837B1D31A522184008887AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3837B2191A522306008887AB /* PPSignInWithNymiPatternViewController.m in Sources */,
+				3837B21C1A522315008887AB /* PPSignInWithNymiViewController.m in Sources */,
+				3837B1E31A522184008887AB /* ViewController.m in Sources */,
+				3837B2121A5221F7008887AB /* PPStoryboardProvider.m in Sources */,
+				3837B2091A5221C8008887AB /* NclWrapper.m in Sources */,
+				3837B2181A522306008887AB /* PPSignInWithNymiDiscoveryModeViewController.m in Sources */,
+				3837B2111A5221F7008887AB /* PPStoryboardNames.m in Sources */,
+				3837B1E01A522184008887AB /* AppDelegate.m in Sources */,
+				3837B1DD1A522184008887AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3837B1EC1A522184008887AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3837B2221A52233E008887AB /* PPSignInWithNymiDiscoveryModeViewControllerSpec.m in Sources */,
+				3837B1F71A522184008887AB /* NymiBeatTests.m in Sources */,
+				3837B2251A522343008887AB /* PPSignInWithNymiViewControllerSpec.m in Sources */,
+				3837B2231A52233E008887AB /* PPSignInWithNymiPatternViewControllerSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3837B1F21A522184008887AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3837B1D61A522184008887AB /* NymiBeat */;
+			targetProxy = 3837B1F11A522184008887AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3837B1E41A522184008887AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3837B1E51A522184008887AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3837B1E91A522184008887AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3837B1EA1A522184008887AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3837B1F81A522184008887AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3837B1F91A522184008887AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3837B1FB1A522184008887AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF74E3F9EFF0FD4AE03E8B1F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = NymiBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NymiBeat/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3837B1FC1A522184008887AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CDEDEA4C4FB42E1F225537 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = NymiBeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NymiBeat/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3837B1FE1A522184008887AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBE9DE3DAC949E742C24FDB /* Pods-NymiBeatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NymiBeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NymiBeat.app/NymiBeat";
+			};
+			name = Debug;
+		};
+		3837B1FF1A522184008887AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB66104CC222406EE00743DE /* Pods-NymiBeatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NymiBeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NymiBeat.app/NymiBeat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3837B1D21A522184008887AB /* Build configuration list for PBXProject "NymiBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3837B1F81A522184008887AB /* Debug */,
+				3837B1F91A522184008887AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3837B1FA1A522184008887AB /* Build configuration list for PBXNativeTarget "NymiBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3837B1FB1A522184008887AB /* Debug */,
+				3837B1FC1A522184008887AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3837B1FD1A522184008887AB /* Build configuration list for PBXNativeTarget "NymiBeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3837B1FE1A522184008887AB /* Debug */,
+				3837B1FF1A522184008887AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3837B1CF1A522184008887AB /* Project object */;
+}
